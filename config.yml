@@ -1,0 +1,296 @@
+title: Himel StartPage
+lang: en
+
+services:
+
+  Home:
+    - type: ip-api
+      icon:
+        name: oui:token-ip
+    - type: openweathermap
+
+      options:
+        lat: 23.810331
+        lon: 90.412521
+      secrets:
+        apiKey: b8171f0e10f66384187ffce4a1a82cdf
+    - title: Facebook
+      description: Social Media
+      tags:
+        - name: Social
+          color: blue
+        - name: Chat
+          color: blue
+      link: 'https://facebook.com'
+      icon:
+        name: simple-icons:facebook
+        wrap: true
+        color: '#0866FF'
+    - title: Youtube
+      description: youtube
+      tags:
+        - name: Video
+          color: red
+        - name: Streaming
+          color: red
+      link: 'https://youtube.com'
+      icon:
+        name: simple-icons:youtube
+        wrap: true
+        color: '#ff0000'
+    - title: Gmail
+      description: Email application
+      tags:
+        - name: Email
+          color: green
+      link: 'https://mail.google.com'
+      icon:
+        name: simple-icons:gmail
+        wrap: true
+        color: '#EA4335'
+    - title: iCloud Mail
+      description: iCloud Mail
+      tags:
+        - name: Email
+          color: green
+      link: 'https://www.icloud.com/mail/'
+      icon:
+        name: simple-icons:icloud
+        wrap: true
+        color: '#3693F3'
+    - title: iCloud Notes
+      description: iCloud Notes
+      tags:
+        - name: Notes
+          color: yellow
+      link: 'https://www.icloud.com/notes'
+      icon:
+        name: simple-icons:icloud
+        wrap: true
+        color: '#F96702'
+    - title: Pastebin
+      description: Pastebin
+      tags:
+        - name: Notes
+          color: yellow
+      link: 'https://pastebin.com'
+      icon:
+        name: simple-icons:pastebin
+        wrap: true
+        color: '#02456C'
+  Development:
+    - title: GitLab
+      description: Source version control
+      tags:
+        - name: Git
+          color: green
+      link: 'https://gitlab.com/'
+      icon:
+        name: simple-icons:gitlab
+        wrap: true
+        color: '#FC6D26'
+    - title: Github
+      description: Source version control
+      tags:
+        - name: Git
+          color: green
+      link: 'https://github.com'
+      icon:
+        name: simple-icons:github
+        wrap: true
+        color: '#181717'
+    - title: ChatGPT
+      description: AI Assistant
+      tags:
+        - name: AI
+          color: red
+      link: 'https://chatgpt.com/'
+      icon:
+        name: simple-icons:chatbot
+        wrap: true
+        color: '#F3F5F5'
+    - title: Sweego SMTP
+      description: SMTP Provider
+      tags:
+        - name: SMTP
+          color: green
+      link: 'https://app.sweego.io/home'
+      icon:
+        name: simple-icons:minutemailer
+        wrap: true
+        color: '#30B980'
+    - title: Bulksms
+      description: Bulk SMS Provider
+      tags:
+        - name: SMS
+          color: green
+      link: 'https://bulksmsbd.net/dashboard'
+      icon:
+        name: simple-icons:session
+        wrap: true
+        color: '#0C322C'
+    - title: PushOver
+      description: PushOver Notification
+      tags:
+        - name: Notificaiton
+          color: green
+      link: 'https://pushover.net/'
+      icon:
+        name: simple-icons:pusher
+        wrap: true
+        color: '#181717'
+    - title: Portainer
+      description: Docker container management
+      tags:
+        - name: Docker
+          color: blue
+      link: 'http://localhost:9000'
+      icon:
+        name: devicon:portainer
+        wrap: true
+    - title: Nginx Proxy Manger
+      description: Nginx Proxy
+      tags:
+        - name: Proxy
+          color: yellow
+      link: 'http://localhost:81'
+      icon:
+        name: simple-icons:nginxproxymanager
+        wrap: true
+        color: '#F15833'
+    - title: DB IP
+      description: Free IP location Data Api
+      tags:
+        - name: IP
+          color: blue
+      link: 'https://db-ip.com/api/free'
+      icon:
+        name: simple-icons:dblp
+        wrap: true
+        color: '#004F9F'
+  Cloud:
+    - title: Pcloud
+      description: Cloud Storage
+      tags:
+        - name: Storage
+          color: blue
+      link: 'https://my.pcloud.com'
+      icon:
+        name: simple-icons:icloud
+        wrap: true
+        color: '#3693F3'
+    - title: ImageKit
+      description: Image Storage
+      tags:
+        - name: Storage
+          color: blue
+      link: 'https://imagekit.io/dashboard/media-library'
+      icon:
+        name: simple-icons:imagedotsc
+        wrap: true
+        color: '#064F8C'
+    - title: HostVds
+      description: Cloud VPS
+      tags:
+        - name: VPS
+          color: blue
+      link: 'https://hostvds.com/control/servers/list'
+      icon:
+        name: simple-icons:cloudways
+        wrap: true
+        color: '#03A9F4'
+  Hostings:
+    - title: Hosting
+      description: MyW
+      tags:
+        - name: Hosting
+          color: red
+      link: 'https://myw.pt'
+      icon:
+        name: simple-icons:bisecthosting
+        wrap: true
+        color: '#E33332'
+    - title: Netlify
+      description: Netlify
+      tags:
+        - name: Static
+          color: green
+      link: 'https://www.netlify.com'
+      icon:
+        name: simple-icons:netlify
+        wrap: true
+        color: '#00C7B7'
+
+  Domains:
+    - title: Cloudflare
+      description: Cloudflare
+      tags:
+        - name: DNS
+          color: yellow
+      link: 'https://dash.cloudflare.com/'
+      icon:
+        name: simple-icons:cloudflare
+        wrap: true
+        color: '#F38020'
+    - title: NameSilo
+      description: NameSilo
+      tags:
+        - name: Domain
+          color: blue
+      link: 'https://www.namesilo.com'
+      icon:
+        name: simple-icons:namesilo
+        wrap: true
+        color: '#031B4E'
+    - title: NameCheap
+      description: NameCheap
+      tags:
+        - name: Domain
+          color: blue
+      link: 'https://ap.www.namecheap.com/'
+      icon:
+        name: simple-icons:namecheap
+        wrap: true
+        color: '#DE3723'
+    - title: US.KG
+      description: US.KG Domains
+      tags:
+        - name: Domain
+          color: blue
+      link: 'https://register.us.kg/panel/main'
+      icon:
+        name: simple-icons:infomaniak
+        wrap: true
+        color: '#0098FF'
+    - title: EU.ORG
+      description: EU.ORG Domains
+      tags:
+        - name: Domain
+          color: blue
+      link: 'https://nic.eu.org/arf/en/'
+      icon:
+        name: simple-icons:infomaniak
+        wrap: true
+        color: '#0098FF'
+
+  Devices:
+    - title: Home Router
+      description: Home Router
+      tags:
+        - name: Router
+          color: green
+      link: 'https://192.168.1.1'
+      icon:
+        name: simple-icons:openwrt
+        wrap: true
+        color: '#00B5E2'
+    - title: Tongi Router
+      description: Tongi Router
+      tags:
+        - name: Router
+          color: green
+      link: 'https://192.168.0.1'
+      icon:
+        name: simple-icons:tplink
+        wrap: true
+        color: '#4ACBD6'
