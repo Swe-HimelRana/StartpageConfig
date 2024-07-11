@@ -53,11 +53,25 @@ services:
       tags:
         - name: Email
           color: green
+        - name: iCloud+
+          color: gray
+        - name: Business
+          color: red
       link: 'https://www.icloud.com/mail/'
       icon:
         name: simple-icons:icloud
         wrap: true
         color: '#3693F3'
+    - title: Bmail
+      description: My Temp Mail
+      tags:
+        - name: Temp Mail
+          color: yellow
+      link: 'https://bmail.us.kg/mailbox'
+      icon:
+        name: simple-icons:maildotru
+        wrap: true
+        color: '#005FF9'
     - title: iCloud Notes
       description: iCloud Notes
       tags:
