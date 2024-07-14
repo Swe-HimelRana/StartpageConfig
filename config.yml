@@ -93,6 +93,16 @@ services:
         wrap: true
         color: '#02456C'
   Development:
+    - title: Educative
+      description: Learn Coding
+      tags: 
+        - name: Course
+          color: blue
+      link: https://www.educative.io/
+      icon:
+        name: simple-icons:educative
+        wrap: true
+        color: '#4951F5'
     - title: GitLab
       description: Source version control
       tags:
